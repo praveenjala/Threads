@@ -19,8 +19,6 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.printf("Main: Ends at: %s\n", new Date(
-
-        ));
+        System.out.printf("Main: Ends at: %s\n", new Date());
     }
 }
