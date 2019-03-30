@@ -1,8 +1,5 @@
 package praveen.jala.threads.executor.scheduleperiodic;
 
-import org.omg.CORBA.TIMEOUT;
-
-import java.sql.Time;
 import java.util.Date;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledFuture;
@@ -25,7 +22,6 @@ public class Main {
                 e.printStackTrace();
             }
         }
-
         try {
             TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
